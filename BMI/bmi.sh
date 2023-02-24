@@ -10,8 +10,10 @@ echo -e "$BLUE B B B B B B B B B B B B B B"
 echo -e "$RED M M M M M M M M M M M M M M" 
 echo -e "$GREEN I I I I I I I I I I I I I I"
 echo
-echo  		BY
-echo       A  E  R  O   M OD S
+echo -e "$NORMAL BY"
+echo A  E  R  O     M O D S
+ls
+
 
 read -p "Bitte geben Sie Ihr Gewicht in Kilogramm ein: " gewicht
 read -p "Bitte geben Sie Ihre Größe in Metern ein: " groesse
