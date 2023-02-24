@@ -1,9 +1,15 @@
 #!/bin/bash
 
-echo B B B B B B B B B B B B B B 
-echo M M M M M M M M M M M M M M 
-echo I I I I I I I I I I I I I I
-echo.
+NORMAL='\033[0;39m'
+BLUE='\033[1;34m'
+GREEN='\033[1;32m'
+RED='\033[1;31m'
+
+
+echo -e "$BLUE B B B B B B B B B B B B B B"
+echo -e "$RED M M M M M M M M M M M M M M" 
+echo -e "$GREEN I I I I I I I I I I I I I I"
+echo
 echo  		BY
 echo       A  E  R  O   M OD S
 
